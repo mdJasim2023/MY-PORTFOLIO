@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { Outlet } from 'react-router-dom';
+import Aboutme from './My Components/Aboutme';
 import './App.css';
+import Assignments from './My Components/Assignments';
+import Nav from './My Components/Nav';
+import Profile from './My Components/Profile';
+import Project from './My Components/Projects';
+import Skills from './My Components/Skills';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+        <Nav></Nav>
+        <Outlet></Outlet>
     </div>
   );
 }
