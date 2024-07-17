@@ -1,11 +1,9 @@
 import Parent from "./Parent";
-import User from "./User";
-
 
 function App() {
   return (
     <div className="">
-       <User/>
+       <Parent/>
        
     </div>
   );

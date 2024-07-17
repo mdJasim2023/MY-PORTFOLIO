@@ -6,6 +6,7 @@ function Profile(){
                 <div>
                     <h3>Hi , I'm <b className="text-warning">Jasim</b> Mohammad</h3>
                     <h1>I'm a <span className="text-warning">Front-end</span> Developer</h1><br />
+                    <h6 className="text-info">Im Fresher</h6>
                     &nbsp;<a href="https://www.linkedin.com/in/jasim-mohammad-b01538258/" target="_blank"><i className="bi bi-linkedin icon "></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                        <a href="https://github.com/mdJasim2023" target="_blank"><i className="bi bi-github icon "></i></a><br />
                     <button className="btn btn-warning mt-3"><a href="jasim1.pdf" target="_blank">Download CV</a></button>

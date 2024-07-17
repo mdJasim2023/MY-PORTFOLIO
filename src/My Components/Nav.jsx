@@ -11,8 +11,8 @@ function Nav(){
                 <Link to='/'><li className="list-group-item m-3">Home</li></Link>
                 <Link to='/projects'><li className="list-group-item m-3">Projects</li></Link>
                 <Link to='/assignments'><li className="list-group-item m-3">Assignments</li></Link>
-                <Link to='/aboutme'><li className="list-group-item m-3">About me</li></Link>
                 <Link to='/skills'><li className="list-group-item m-3">Skills</li></Link>
+                <Link to='/aboutme'><li className="list-group-item m-3">About me</li></Link>
             </ul>
         </div>
     )
